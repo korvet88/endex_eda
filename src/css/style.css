@@ -143,16 +143,16 @@ body {
   background: linear-gradient(90deg, rgba(0, 0, 0, 0.43) 40.45%, rgba(0, 0, 0, 0) 100%);
 }
 .promo {
-  box-sizing: border-box;
+
   padding-top: 50px;
   padding-bottom: 50px;
-  max-width: 1194px;
   display: flex;
-  align-content: center;
   justify-content: space-between;
-  
+  margin: -20px;
 }
 .card {
+  flex: 50%;
+  margin: 20px;
   position: relative;
   border-radius: 20px;
   overflow: hidden;
@@ -215,5 +215,12 @@ body {
   z-index: -1;
   object-fit: cover;
 }
-
+.section-title {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 23px;
+  margin-top: 0;
+  margin-bottom: 47px;
+  
+}
 
