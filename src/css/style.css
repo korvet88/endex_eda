@@ -221,7 +221,9 @@ body {
   line-height: 23px;
   margin-top: 0;
   margin-bottom: 47px;
-  
+}
+.delivery-week {
+  padding: 100px 0px;
 }
 .delivery-cards {
   display: flex;
@@ -250,9 +252,88 @@ body {
   font-style: normal;
   font-weight: 500;
   line-height: 23px;
-  color: #49494F;
+  
   padding: 5px 10px;
 }
 .tag-health {
   background-color: #D0FD89;
+  color: #49494F;
+}
+.tag-ved {
+  background-color: #AEBC41;
+  color: #fff;
+}
+.tag-meet {
+  background-color: #B86B78;
+  color: #fff;
+}
+.tag-berd {
+  background-color: #D68334;
+  color: #fff;
+}
+.tag-fish {
+  background-color: #CD6255;
+  color: #fff;
+}
+.tag-child {
+  background-color: #FFFDBF;
+  color: #49494F;
+}
+.tag-dead {
+  background-color: #F6FDC8;
+  color: #49494F;
+}
+.tag-party {
+  background-color: #FEF7FE;
+  color: #49494F;
+}
+.section-grey {
+  background-color: #F6F6F6;
+}
+.category {
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+.tabs-card {
+  max-width: 270px;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: #fff;
+}
+.tabs-image {
+  max-width: 100%;
+  overflow: hidden;
+}
+.tabs-card-content {
+  padding: 23px;
+}
+.tabs-title {
+  margin-top: 0px;
+  margin-bottom: 13px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+}
+.tabs-description {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 23px;
+  color: #B9B9BE;
+}
+.tabs-price {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 23px;
+  color: #4B4B51;
+}
+.tabs-weight {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  color: #AAAAB1;
+
 }
