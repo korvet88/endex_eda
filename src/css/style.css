@@ -217,10 +217,42 @@ body {
 }
 .section-title {
   font-weight: 500;
-  font-size: 32px;
+  font-size: 32px; 
   line-height: 23px;
   margin-top: 0;
   margin-bottom: 47px;
   
 }
-
+.delivery-cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -15px;
+}
+.delivery-card {
+  margin: 15px;
+  position: relative;
+  width: 275px;
+  height: 182px;
+  border-radius: 18px;
+  overflow: hidden;
+}
+.delivery-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.delivery-tag {
+  position: absolute;
+  left: 10px;
+  top: 16px;
+  border-radius: 30px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 23px;
+  color: #49494F;
+  padding: 5px 10px;
+}
+.tag-health {
+  background-color: #D0FD89;
+}
