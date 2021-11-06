@@ -1,18 +1,22 @@
 * {
   box-sizing: border-box;
 }
+
 body {
   font-family: "Roboto", sans-serif;
 }
+
 .container {
   max-width: 1194px;
   margin: auto;
 }
+
 .header {
   display: flex;
   align-items: center;
   padding: 10px 0px;
 }
+
 .search-form {
   margin-left: 76px;
   background: rgba(238, 238, 238, 0.71);
@@ -22,6 +26,7 @@ body {
   flex-grow: 1;
   position: relative;
 }
+
 .search-input {
   background-color: transparent;
   border: none;
@@ -31,6 +36,7 @@ body {
   padding-top: 13px;
   padding-bottom: 13px;
 }
+
 .search-button {
   background-color: transparent;
   border: none;
@@ -42,9 +48,11 @@ body {
   padding-right: 18px;
   cursor: pointer;
 }
+
 .auth {
   margin-left: auto;
 }
+
 .login {
   background: #ebebeb;
   border-radius: 50px;
@@ -55,6 +63,7 @@ body {
   line-height: 16px;
   color: #000000;
 }
+
 .shoping-card {
   position: relative;
   text-decoration: none;
@@ -67,11 +76,12 @@ body {
   justify-content: center;
   margin-left: 30px;
 }
+
 .shoping-counter {
   position: absolute;
   right: 0;
   bottom: 0;
-  background-color:  #FFAF19;
+  background-color: #FFAF19;
   font-size: 8px;
   line-height: 9px;
   color: #000000;
@@ -79,6 +89,7 @@ body {
   padding: 5px;
   border-radius: 50%;
 }
+
 .slide {
   position: relative;
   border-radius: 20px;
@@ -88,14 +99,17 @@ body {
   align-items: center;
   padding: 100px;
 }
+
 .slide-text-light {
   background-color: grey;
   color: #fff;
 }
+
 .slide-content {
   position: relative;
   max-width: 400px;
 }
+
 .slide-title {
   margin-top: 0;
   margin-bottom: 15px;
@@ -103,20 +117,24 @@ body {
   font-size: 50px;
   line-height: 51px;
 }
+
 .slide-text {
   font-weight: bold;
   font-size: 16px;
   line-height: 23px;
   margin-bottom: 30px;
 }
+
 .button-primary {
   background-color: #F47322;
   color: #fff;
 }
+
 .button-defolt {
   background-color: #fff;
   color: #5F5F61;
 }
+
 .button {
   border-radius: 25px;
   padding: 12px 50px;
@@ -126,11 +144,13 @@ body {
   font-size: 14px;
   line-height: 23px;
 }
+
 .slide-summer {
   background-image: url('../img/summer.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .slide:before {
   content: '';
   position: absolute;
@@ -142,6 +162,7 @@ body {
   height: 100%;
   background: linear-gradient(90deg, rgba(0, 0, 0, 0.43) 40.45%, rgba(0, 0, 0, 0) 100%);
 }
+
 .promo {
 
   padding-top: 50px;
@@ -150,6 +171,7 @@ body {
   justify-content: space-between;
   margin: -20px;
 }
+
 .card {
   flex: 50%;
   margin: 20px;
@@ -164,6 +186,7 @@ body {
   justify-content: space-between;
   flex-grow: 1;
 }
+
 .card:before {
   z-index: -1;
   content: "";
@@ -174,9 +197,11 @@ body {
   height: 100%;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
 }
+
 .card-text-light {
   color: #fff;
 }
+
 .card-title {
   margin-top: 4px;
   margin-bottom: 21px;
@@ -185,6 +210,7 @@ body {
   font-size: 24px;
   line-height: 23px;
 }
+
 .card-description {
   font-style: normal;
   font-weight: 500;
@@ -192,6 +218,7 @@ body {
   line-height: 23px;
   max-width: 200%;
 }
+
 .card-price {
   display: block;
   font-weight: 500;
@@ -199,6 +226,7 @@ body {
   line-height: 23px;
   margin-bottom: 8px;
 }
+
 .card-delivery {
   display: block;
   font-weight: 500;
@@ -206,6 +234,7 @@ body {
   line-height: 23px;
   margin-bottom: 25px;
 }
+
 .card-image {
   position: absolute;
   left: 0;
@@ -215,21 +244,25 @@ body {
   z-index: -1;
   object-fit: cover;
 }
+
 .section-title {
   font-weight: 500;
-  font-size: 32px; 
+  font-size: 32px;
   line-height: 23px;
   margin-top: 0;
   margin-bottom: 47px;
 }
+
 .delivery-week {
   padding: 100px 0px;
 }
+
 .delivery-cards {
   display: flex;
   flex-wrap: wrap;
   margin: -15px;
 }
+
 .delivery-card {
   margin: 15px;
   position: relative;
@@ -238,11 +271,13 @@ body {
   border-radius: 18px;
   overflow: hidden;
 }
+
 .delivery-image {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
+
 .delivery-tag {
   position: absolute;
   left: 10px;
@@ -252,61 +287,102 @@ body {
   font-style: normal;
   font-weight: 500;
   line-height: 23px;
-  
+
   padding: 5px 10px;
 }
+
 .tag-health {
   background-color: #D0FD89;
   color: #49494F;
 }
+
 .tag-ved {
   background-color: #AEBC41;
   color: #fff;
 }
+
 .tag-meet {
   background-color: #B86B78;
   color: #fff;
 }
+
 .tag-berd {
   background-color: #D68334;
   color: #fff;
 }
+
 .tag-fish {
   background-color: #CD6255;
   color: #fff;
 }
+
 .tag-child {
   background-color: #FFFDBF;
   color: #49494F;
 }
+
 .tag-dead {
   background-color: #F6FDC8;
   color: #49494F;
 }
+
 .tag-party {
   background-color: #FEF7FE;
   color: #49494F;
 }
+
 .section-grey {
   background-color: #F6F6F6;
 }
+
 .category {
   padding-top: 40px;
   padding-bottom: 60px;
 }
+
+.tabs {
+  display: flex;
+  margin: 0;
+  list-style-type: none;
+  padding: 0;
+  padding-bottom: 62px;
+  margin-right: 58px;
+}
+
+.tabs-link {
+  font-size: 20px;
+  line-height: 23px;
+  text-decoration: none;
+  color: #49494F;
+  margin-right: 58px;
+}
+
+.tabs-link.active {
+  color: #F37321;
+}
+
+.tabs-content {
+  display: flex;
+  margin: -15px;
+
+}
+
 .tabs-card {
   max-width: 270px;
   border-radius: 20px;
   overflow: hidden;
   background-color: #fff;
 }
+
 .tabs-image {
   max-width: 100%;
   overflow: hidden;
 }
+
 .tabs-card-content {
   padding: 23px;
 }
+
 .tabs-title {
   margin-top: 0px;
   margin-bottom: 13px;
@@ -315,6 +391,7 @@ body {
   font-size: 20px;
   line-height: 23px;
 }
+
 .tabs-description {
   font-style: normal;
   font-weight: 500;
@@ -322,6 +399,13 @@ body {
   line-height: 23px;
   color: #B9B9BE;
 }
+
+.tabs-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .tabs-price {
   font-style: normal;
   font-weight: 500;
@@ -329,11 +413,31 @@ body {
   line-height: 23px;
   color: #4B4B51;
 }
+
 .tabs-weight {
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
   line-height: 20px;
   color: #AAAAB1;
+}
 
+.button-outline {
+  display: block;
+  background-color: transparent;
+  padding: 15px 25px;
+  border: 2px solid #F37321;
+  box-sizing: border-box;
+  border-radius: 33px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #F37321;
+}
+
+.button-center {
+  display: block;
+  margin: auto;
+  margin-top: 60px;
+  width: 315px;
 }
