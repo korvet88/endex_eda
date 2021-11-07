@@ -364,7 +364,7 @@ body {
 .tabs-content {
   display: flex;
   margin: -15px;
-
+  justify-content: space-between;
 }
 
 .tabs-card {
@@ -415,7 +415,7 @@ body {
 }
 
 .tabs-weight {
-  font-style: normal;
+  display: block;
   font-weight: 500;
   font-size: 17px;
   line-height: 20px;
@@ -423,7 +423,7 @@ body {
 }
 
 .button-outline {
-  display: block;
+  
   background-color: transparent;
   padding: 15px 25px;
   border: 2px solid #F37321;
@@ -440,4 +440,34 @@ body {
   margin: auto;
   margin-top: 60px;
   width: 315px;
+}
+.footer {
+  background-color: #f6f6f6;
+  padding: 40px 0;
+}
+.foter-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.footer-logo {
+  margin-right: 50px;
+}
+.footer-link {
+  font-size: 16px;
+  line-height: 23px;
+  text-decoration-line: underline;
+  color: #000000;
+  margin-right: 50px;
+}
+.social-links {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+
+}
+.social-link {
+  margin-right: 20px;
+  text-decoration: none; 
+  margin-left: 20px;
 }
