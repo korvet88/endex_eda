@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normolize.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>  
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -53,7 +54,15 @@
     <!-- конеце header -->
     <main class="main">
         <div class="slider container">
-            <div class="slide slide-text-light slide-summer">
+            
+        </div>
+        <!-- /.slider -->
+        <!-- Slider main container -->
+        <div class="swiper container">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><div class="slide slide-text-light slide-summer">
                 <div class="slide-content">
                     <h2 class="slide-title">Неделя летних овощей</h2>
                     <p class="slide-text">Специальная овощная корзина. Новые продукты,
@@ -62,9 +71,19 @@
                 </div>
                 <!-- /.slide-content -->
             </div>
-            <!-- /.slide -->
+            <!-- /.slide --></div>
+                <div class="swiper-slide">Slide 2</div>
+                <div class="swiper-slide">Slide 3</div>
+                ...
+            </div>
+        
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+
         </div>
-        <!-- /.slider -->
+
         <div class="container">
             <div class="promo">
                 <section class="card card-text-light sweet-basket">
@@ -311,7 +330,7 @@
         </div>
     </footer>
     <!-- /.footer -->
-
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="js.main.js"></script>
 </body>
-
 </html>
