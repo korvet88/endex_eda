@@ -163,13 +163,21 @@ body {
   font-size: 14px;
   line-height: 23px;
 }
-
+.slide-otem {
+  background-image: url('../img/otem.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .slide-summer {
   background-image: url('../img/summer.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
-
+.slide-vitamine-week {
+  background-image: url('../img/vitamine-week.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .slide:before {
   content: '';
   position: absolute;
@@ -444,7 +452,6 @@ body {
 }
 
 .button-outline {
-
   background-color: transparent;
   padding: 15px 25px;
   border: 2px solid #F37321;
@@ -455,13 +462,58 @@ body {
   line-height: 19px;
   color: #F37321;
 }
-
 .button-center {
   display: block;
   margin: auto;
   margin-top: 60px;
   width: 315px;
 }
+.benefits {
+  max-width: 1191px;
+  align-items: center;
+  margin-top: 100px;
+}
+.benefit-cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.benefit-card {
+  max-width: 270px;
+  max-height: 296px;
+  border-radius: 18px;
+}
+.benefit-card-image {
+  max-width: 100%;
+  overflow: hidden;
+  padding-top: 30px;
+  margin-left: calc(50% - 30px);
+}
+.benefit-card-content {
+  padding: 25px;
+  padding-top: 30px;
+  text-align: center;
+}
+.benefit-card-title {
+  margin-top: 0;
+  margin-bottom: 13px;
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 46px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+}
+.benefit-card-description {
+  margin-top: 0;
+  width: 223px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+}
+
 
 .footer {
   background-color: #f6f6f6;
